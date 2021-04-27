@@ -12,7 +12,7 @@ section {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: #161623;
+    background: #1f050a;
     overflow: hidden;
 }
 
@@ -21,7 +21,7 @@ section::before {
     position: absolute;
     width: 400px;
     height: 400px;
-    background: linear-gradient(#ffc107, #e91e63);
+    background: linear-gradient(#7D82B8, #04e824);
     border-radius: 50%;
     transform: translate(-250px, -120px);
 }
@@ -31,7 +31,7 @@ section::after {
     position: absolute;
     width: 350px;
     height: 350px;
-    background: linear-gradient(#2196f3, #31ff38);
+    background: linear-gradient(#5398BE, #FFC8FB);
     border-radius: 50%;
     transform: translate(250px, 120px);
 }
@@ -55,4 +55,28 @@ section::after {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#dycalendar {
+    width: 100%;
+    padding: 20px;
+}
+
+#dycalendar table {
+    width: 100%;
+    margin-top: 40px;
+    border-spacing: 5px;
+}
+
+#dycalendar table tr:nth-child(1) td {
+    background: #111;
+    color: #fff;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+#dycalendar table td {
+    color: #ffffff;
+    padding: 10px;
+    cursor: pointer;
 }
